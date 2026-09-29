@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local outputs
+outputs/
+
+# Supplied/private assessment data
+data/customers.csv
+data/orders.csv
+data/tickets.csv
+data/agents.csv
+data/products.csv
+data/email-thread.txt
+data/support-policy.pdf
+data/README.txt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
